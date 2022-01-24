@@ -12,7 +12,7 @@ header{
     width: 100%;
     height: 80px;
     line-height: 80px; /* centrare verticalmente in corrispondenza dell'height */
-    background-color:rgb(49, 97, 224);
+    background-color: rgba(49,96,225,255);
 }
 
 main{
@@ -56,7 +56,7 @@ section .logo img{
 }
 
 .main-nav{
-    width: calc(100% - 211.83px);
+    width: calc(100% - 201px);
     text-align: center;
 }
 
@@ -65,11 +65,19 @@ section .logo img{
     word-spacing: 20px;
 }
 
-.jumbotron{
+.jumbotron, .description, .header-foot{
     width: 100%;
     height: 70vh;
     /* background-color: blueviolet; */
+    /* position:relative; */
+}
+
+.relative{
     position:relative;
+}
+
+.absolute{
+    position: absolute;
 }
 
 .jumbotron img{
@@ -115,9 +123,11 @@ section .jumbotron-txt p{
     padding: 10px;
     border-radius: 5em;
     border: none;
-    margin-right: 15px;
 }
 
+.margin-right-bottom{
+    margin-right: 15px;
+}
 
 .aside-sx{
     width: 65%;
@@ -159,7 +169,7 @@ section .aside-dx > p{
 }
 
 .margin-bottom{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .margin-right{
@@ -171,8 +181,16 @@ section .aside-dx > p{
     padding-top: 40px;
 }
 
+.padding-top-top{
+    padding-top:40px;
+}
+
 .white{
     color: white;
+}
+
+.blue{
+    color: rgba(115,137,219,255);
 }
 
 .back-black{
@@ -180,12 +198,17 @@ section .aside-dx > p{
 }
 
 .back-lightgray{
-    background-color: lightgray;
+    background-color: rgb(245, 245, 245);
+/*     padding: 60px; */
 }
 
 .back-blue{
-    background-color: cornflowerblue;
+    background-color: rgba(115,137,219,255);
 }
+.black-foot{
+    background-color: rgba(35,38,43,255);
+}
+
 
 .padding{
     padding: 15px;
@@ -202,4 +225,59 @@ section .aside-dx > p{
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.header-foot  section nav, ul{
+    padding-top: 5em;
+    display: inline;
+    margin-left: 4em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.body a {
+    color: whitesmoke;  
+}
+
+.header-foot section nav ul li{
+    list-style: none;
+    line-height: 35px;
+    
+}
+
+nav ul li .title{
+    color: rgba(115,137,219,255);
+}
+
+footer section .talk-social h1{
+    color: rgba(115,137,219,255);
+}
+
+footer section .talk-social img{
+    width: 10%;
+    margin: 1em 0;
+    vertical-align: middle;
+}
+footer section .talk-social p{
+    display: inline-block;
+    margin-left: 5px;
+    color:whitesmoke;
+}
+
+footer section .talk-social{
+    width: 20%;
+    height: 100%;
+    padding-top: 5em;
+}
+
+.talk-social .icons{
+    display: block;
+    
+}
+
+.talk-social i{
+    margin-right: 1em;
+    color: whitesmoke;
 }
