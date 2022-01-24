@@ -126,7 +126,7 @@ section .jumbotron-txt p{
 }
 
 .aside-dx{
-    width: calc(35% - 10em);
+    width: calc(35% - 7em);
     height: 100%;
 /*     padding-top: 40px; */
 }
@@ -146,7 +146,7 @@ section .aside-dx > p{
 }
 
 .margin-right{
-    margin-right: 10em;
+    margin-right: 7em;
 }
 
 
