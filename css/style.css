@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px; /* centrare verticalmente in corrispondenza dell'height */
+    background-color:rgb(49, 97, 224);
+}
+
+.clearfix{  
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1180px;
+    
+}
+
+.float-left{
+    float: left;
+}
+
+header section .main-nav li{
+    display: inline;
+}
+
+header section .main-nav a{
+    text-decoration: none;
+}
+
+/* posso usare questa scorciatoia oppure andare a crearmi un "comando" da aggiugere dìrettamente alla div /section desiderata */
+/* section div, nav{
+    float:left;
+} */
+
+section .logo img{
+    vertical-align: middle;
+}
+
+.main-nav{
+    width: calc(100% - 211.83px);
+    text-align: center;
+}
+
+/* molto probabilemnte lo andrò ad utilizzare nel footer */
+.word-spacing{
+    word-spacing: 20px;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 60vh;
+    /* background-color: blueviolet; */
+    position:relative;
+}
+
+.jumbotron img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: relative;
+} 
+
+/* .jumbotron-txt{
+    width: calc(100% - 168.02px);
+    text-align: center;
+} */
+
+/* .position-absolute{
+    position: absolute;
+} */
+
+.jumbotron-txt{
+    position: absolute;
+    width: 660px;
+    height: 400px;
+    text-align: center;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+section .jumbotron-txt h1 {
+    margin-bottom: 25px;
+    font-size: 3.1em;
+}
+
+section .jumbotron-txt p{
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 30px;
+}
+
+.button{
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5em;
+    border: none;
+    margin-right: 15px;
+}
+
+
+.white{
+    color: white;
+}
+
+.back-black{
+    background-color: black;
+}
+
+.back-lightgray{
+    background-color: lightgray;
+}
