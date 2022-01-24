@@ -20,6 +20,7 @@ main{
     height: 70vh;
 }
 
+
 .clearfix{  
     content: "";
     clear: both;
@@ -266,7 +267,9 @@ footer section .talk-social img{
 }
 footer section .talk-social p{
     display: inline-block;
-    margin-left: 5px;
+    margin: 0 5px;
+/*     margin-left: 5px;
+    margin-right: 5px; */
     color:whitesmoke;
 }
 
@@ -294,4 +297,8 @@ footer section .talk-social{
 
 .footer-menu{
     margin-bottom: 1.5em;
+}
+
+.description .button i, .jumbotron-txt .button i{
+    margin: 0 10px;
 }
