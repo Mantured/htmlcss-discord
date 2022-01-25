@@ -20,6 +20,10 @@ main{
     height: 70vh;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .clearfix{  
     content: "";
@@ -47,7 +51,7 @@ header section .main-nav li{
 }
 
 header section .main-nav a{
-    text-decoration: none;
+/*     text-decoration: none; */
     color: whitesmoke;
 }
 
@@ -65,7 +69,7 @@ section .logo img{
     text-align: center;
 }
 
-/* molto probabilemnte lo andrò ad utilizzare nel footer */
+/* molto probabilemnte lo andrò ad utilizzare nel footer  (e infatti me ne sono dimenticato del comando)*/
 .word-spacing{
     word-spacing: 20px;
 }
@@ -77,8 +81,10 @@ section .logo img{
     /* position:relative; */
 }
 
+/* ! posizionamento oggetti nel flusso */
+
 .relative{
-    position:relative;
+    position:relative; /* funge da chiodo per appenderci gli absolut */
 }
 
 .absolute{
@@ -89,7 +95,7 @@ section .logo img{
     width: 100%;
     height: 100%;
     object-fit: fill;
-    position: relative;
+    /* position: relative; */
 } 
 
 /* .jumbotron-txt{
@@ -109,7 +115,7 @@ section .logo img{
     top:55%;
     left:50%;
     transform: translate(-50%, -50%);
-    color: white;
+ /*    color: white; */
 }
 
 section .jumbotron-txt h1 {
@@ -123,6 +129,8 @@ section .jumbotron-txt p{
     line-height: 30px;
 }
 
+/* generico per i botton */
+
 .button{
     font-size: 1.1em;
     padding: 10px;
@@ -130,9 +138,6 @@ section .jumbotron-txt p{
     border: none;
 }
 
-.margin-right-bottom{
-    margin-right: 15px;
-}
 
 .aside-sx{
     width: 65%;
@@ -165,6 +170,8 @@ section .aside-dx > p{
     font-size: 1.1em;
 }
 
+/* !posizionamento test e interlinea */
+
 .line-height{
     line-height: 30px;
 }
@@ -173,21 +180,11 @@ section .aside-dx > p{
     text-align: center;
 }
 
-.margin-bottom{
-    margin-bottom: 50px;
-}
 
-.margin-right{
-    margin-right: 7em;
-}
+/*! gestione colori testo */
 
-
-.padding-top{
-    padding-top: 40px;
-}
-
-.padding-top-top{
-    padding-top:40px;
+.smoke{
+    color: whitesmoke;  
 }
 
 .white{
@@ -198,6 +195,7 @@ section .aside-dx > p{
     color: rgba(115,137,219,255);
 }
 
+/*! gestioni colori back-ground o sfondo */
 .back-black{
     background-color: black;
 }
@@ -214,6 +212,7 @@ section .aside-dx > p{
     background-color: rgba(35,38,43,255);
 }
 
+/*! padding e margin ripetitivo  */
 
 .padding{
     padding: 15px;
@@ -221,6 +220,26 @@ section .aside-dx > p{
 
 .margin-bottom-h1{
     margin-bottom: 25px;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.margin-right{
+    margin-right: 7em;
+}
+
+.padding-top{
+    padding-top: 40px;
+}
+
+.padding-top-top{
+    padding-top:40px;
+}
+
+.margin-right-bottom{
+    margin-right: 15px;
 }
 
 .stelle{
@@ -238,9 +257,7 @@ section .aside-dx > p{
     margin-left: 4em;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .body a {
     color: whitesmoke;  
